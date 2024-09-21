@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Shop ecommerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar" >
+        <a href="index.html"><h3>Tech-Shop</h3></a>
+        <div class="navBarIcons">
+            <div class="searchHover">
+                <i class="fa-solid fa-magnifying-glass search"></i>
+                <input type="text" placeholder="search for product" class="searchBar">
+            </div>
+            
+            <a href="./cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            
+           <div id="user">
+           <a href="./signup.html"> <i class="fa-regular fa-user user" id="user"> </i></a> 
+            <!-- <div class="signupPopup">
+                <h1 class="head">Hello</h1>
+                <p>Acess account and manage orders</p>
+                <button class="signup"> Login / Signup</button>
+                <hr>
+                <button class="login">Please Login</button>
+            </div> -->
+           </div>
+           
+        </div>
+    </div>
+    
+    <div class="banner" id="home" >
+        <div class="bannerContent">
+            <p>boAt Airdopes 131</p>
+            <h1>Featherweight For Comfort All-Day.</h1>
+            <p class="cost">1,099 <strike>2,990</strike></p>
+            <div class="bannerbutton">Shop Now</div>
+        </div>
+        <img src="/assets/images/products/boat131-3.png" alt="bannerImage">
+    </div>
+
+    <div class="featuredProducts">
+    <h1 class="featuredProductsHeading" > Featured Products</h1>
+    <div class="featuredProductSection">
+        <div class="featuredProductCard cornerCard">
+            <p>JBL Endurance Run Sports</p>
+            <img src="/assets/images/products/jbl-endu-1.png" alt="image1">
+            <p class="rate">999 <strike>1,599</strike></p>
+        </div>
+        
+        <div class="featuredProductCard middleCard">
+            <p>boAt Airdopes 203</p>
+            <img src="/assets/images/products/boat203-1.png" alt="image1">
+            <p class="rate">1,074 <strike>3,999</strike></p>
+        </div>
+        <div class="featuredProductCard centerCard">
+            <p>boAt Rockerz 518</p>
+            <img src="/assets/images/products/boat518-1.png" alt="image1">
+            <p class="rate">1,299 <strike>3,999</strike></p>
+        </div>
+        <div class="featuredProductCard middleCard">
+            <p>JBL Tune 760NC</p>
+            <img src="/assets/images/products/jbl760nc-1.png" alt="image1">
+            <p class="rate">5,999 <strike>7,999</strike></p>
+        </div>
+        <div class="featuredProductCard cornerCard">
+            <p>boAt Rockerz 255</p>
+            <img src="/assets/images/products/boat255r-1.png" alt="image1">
+            <p class="rate">899 <strike>2,999</strike></p>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="topProductsContainer">
+        <h1>Top Products</h1>
+        <div class="topProductsNav">
+            <ul>
+                <li class="item1"><a href="">All</a></li>
+                <li><a href="">HeadPhones</a></li>
+                <li><a href="">Earbuds</a></li>
+                <li><a href="">Earphones</a></li>
+                <li><a href="">Neckbands</a></li>
+            </ul>
+        </div>
+        <div class="topProducts">
+            <div class="topProductCard">
+                <a href="./productDetails.html">
+                    <img src="/assets/images/products/jbl660nc-1.png" alt="image1">
+                </a>
+                
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>JBL Live 660NC</h3>
+                    <p>Wireless Over-Ear NC Headphones</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">9,999 <strike>14,999</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/boat518-1.png" alt="image1">
+                </a>
+                
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>boAt Rockerz 518</h3>
+                    <p>On-Ear Wireless Headphones</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">1,299 <strike>3,990</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/boat131-1.png" alt="image1">
+                </a>
+                
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>boAt Airdopes 131</h3>
+                    <p>Wireless In-Ear Earbuds</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">1,099 <strike>2,990</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/boat110-1.png" alt="image1">
+                </a>
+                
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>boAt BassHeads 110</h3>
+                    <p>In-Ear Wired Earphones</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">449 <strike>999</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/boat410-1.png" alt="image1">
+                </a>
+                
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>boAt Rockerz 410</h3>
+                    <p>Bluetooth & Wired On-Ear Headphones</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">1,599 <strike>2,990</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/jbl200bt-1.png" alt="image1">
+                </a>
+                
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>JBL Live 200BT</h3>
+                    <p>In-Ear Wireless Neckbands</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">3,699 <strike>15,299</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/sonyXb910n-1.png" alt="image1">
+                </a>
+               
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Sony WH-XB910N</h3>
+                    <p>Wireless Over-Ear Headphones</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">13,489 <strike>19,990</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/jbl760nc-1.png" alt="image1">
+                </a>
+                
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>JBL Tune 760NC</h3>
+                    <p>Wireless Over-Ear NC Headphones</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">5,999 <strike>7,999</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/boat255r-1.png" alt="image1">
+                </a>
+                
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>boAt Rockerz 255</h3>
+                    <p>In-Ear Wireless Neckbands</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">899 <strike>2,990</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/jbl100-1.png" alt="image1">
+                </a>
+               
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>JBL Wave 100</h3>
+                    <p>In-Ear truly Wireless Earbuds</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">2,999 <strike>6,999</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+
+            <div class="topProductCard">
+                <a href="">
+                    <img src="/assets/images/products/sony1000xm4-1.png" alt="image1">
+                </a>
+               
+                <div class="cardInfo">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h3>Sony WF-1000XM4</h3>
+                    <p>Wireless In-Ear NC Headphones</p>
+                    <hr>
+                    <i class="fa-solid fa-indian-rupee-sign rupee"></i>
+                    <p class="rate">19,990 <strike>24,999</strike></p>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+            <div class="topProductCard lastCard">
+                <h1>Browse  All products </h1>
+                <i class="fa-solid fa-arrow-right arrow"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="advantageContainer">
+        <h1>Our Advantages</h1>
+        <div class="advantages">
+            <div class="advCard">
+                <i class="fa-solid fa-truck"></i>
+                <div class="description">
+                    <p class="para1">Express delivery</p>
+                    <p class="para2">Ships in 24 Hours</p>
+                </div>
+                
+            </div>
+            <div class="advCard">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div class="description">
+                    <p class="para1">Brand Warranty</p>
+                    <p class="para2">100% Original products</p>
+                </div> 
+            </div>
+            <div class="advCard">
+                <i class="fa-solid fa-tags"></i>
+                <div class="description">
+                    <p class="para1">Exciting Deals</p>
+                    <p class="para2">On all prepaid orders</p>
+                </div>
+                
+            </div>
+            <div class="advCard">
+                <i class="fa-solid fa-credit-card"></i>
+                <div class="description">
+                    <p class="para1">Secure payments</p>
+                    <p class="para2">SSL/ Secure certificate</p>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="subcribeContainer">
+            <h1>Tech-Shop</h1>
+            <p>Subcribe to our Email alrets to receive early discount offers ,and new products info.</p>
+            <input type="email" placeholder="Email address*">
+            <button class="btn">Subscribe</button>
+        </div>
+        <div class="helpContainer">
+            <h4>Help</h4>
+            <p>FAQs</p>
+            <p>Track orders</p>
+            <p>Cancel Orders</p>
+            <p>Return Orders</p>
+            <p>Warranty Info</p>
+        </div>
+        <div class="policiesContainer">
+            <h4>Policies</h4>
+            <p>Return policy</p>
+            <p>Security</p>
+            <p>Sitemap</p>
+            <p>Privacy Policy</p>
+            <p>Terms & conditions</p>
+        </div>
+        <div class="companyContainer">
+            <h4>Company</h4>
+            <p>About us</p>
+            <p>Contact us</p>
+            <p>Service centers</p>
+            <p>Careers</p>
+            <p>Affiliates</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footerBottom">
+        <p>2024 | All Rights Reserved.Built by | MASANI PAVITHRA</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </div>
+    
+    <a href="#home"><i class="fa-solid fa-square-caret-up scrollUp"></i></a>
+</body>
+</html>

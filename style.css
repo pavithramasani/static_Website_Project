@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(190, 178, 178)
+    /* background-color: rgb(60, 60, 60); */
+   
+}
+.navbar{
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: black;
+    position: fixed;
+ 
+}
+.navbar h3{
+    font-size: 25px;
+    padding: 10px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navBarIcons{
+    display: flex;
+}
+.navBarIcons i{
+  padding-left: 20px;
+  padding-right: 20px;
+  
+}
+.navBarIcons .searchHover:hover .searchBar{
+    display: block;
+}
+
+.searchBar{
+    display: none;
+    position: absolute;
+    top:12px;
+    left: 700px;
+    padding: 8px;
+    width: 400px;
+}
+/*#user{
+    cursor: pointer;
+  
+}
+
+/* .signupPopup{
+    border: 1px solid white;
+    padding: 20px;
+    background-color: rgb(42, 41, 41);
+    display: none; 
+   position: absolute;
+    top:80px;
+    left: 940px; 
+    width: 400px;
+
+    
+}
+
+#user:hover .signupPopup{
+    
+   display: block;
+  
+
+
+}*/
+
+
+/*.signupPopup .head{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.signupPopup p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.signupPopup .signup{
+    width: 110px;
+    background-color: rgb(57, 56, 56);
+    padding: 10px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.signupPopup .login{
+    width: 110px;
+    background-color: rgb(57, 56, 56);
+    padding: 10px;
+    color: whitesmoke;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+} */
+.banner{
+    height: 700px;
+   
+    background-color: rgb(14, 11, 11);
+    display: flex;
+    justify-content: space-around;
+   
+}
+.banner .bannerContent{
+    padding-top: 150px;
+    color: rgb(190, 178, 178);
+    padding-left: 50px;
+    width: 600px;
+}
+.bannerContent p{
+    font-size: 27px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.bannerContent h1{
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.bannerContent strike{
+    font-size: 22px;
+    margin-left: 10px;
+    color: rgb(87, 86, 86);
+   
+}
+.bannerContent .cost{
+    margin-bottom: 40px;
+}
+.bannerContent .bannerbutton{
+    background-color: red;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.banner img{
+    height: 600px;
+    width: 550px;
+    padding: 70px;
+    margin-top: 20px;
+}
+.featuredProducts{
+    background-color:  rgb(14, 11, 11);
+    height: 700px;
+}
+.featuredProducts h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+.featuredProductSection{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.featuredProductSection .featuredProductCard{
+    margin: 20px;
+    text-align: center;
+}
+
+
+.featuredProductSection .centerCard{
+    height: 400px;
+    width: 250px;
+    
+}
+.featuredProductSection .middleCard{
+    height: 300px;
+    width: 190px;
+    
+}
+.featuredProductSection .cornerCard{
+    height: 200px;
+    width: 100px;
+    
+}
+.featuredProductSection .centerCard img{
+width: 250px;
+height: 270px;
+}
+.featuredProductSection .middleCard img{
+    width: 150px;
+    height: 200px;
+   
+}
+.featuredProductSection .cornerCard img{
+    width: 100px;
+    height: 100px;
+   
+}
+.featuredProductSection .featuredProductCard p{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.featuredProductSection .featuredProductCard .rate{
+    font-size: 19px;
+    font-weight: 900;
+    color: white;
+}
+.featuredProductSection .featuredProductCard strike{
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 900;
+    color: rgb(121, 121, 121);
+}
+.topProductsContainer{
+   background-color:  rgb(14, 11, 11);
+}
+.topProductsContainer h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 75px;
+}
+.topProductsNav{
+    padding-bottom: 100px;
+}
+.topProductsNav ul{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.topProductsNav ul li{
+    list-style: none;
+}
+.topProductsNav ul a{
+    text-decoration: none;
+   font-size: 20px;
+    padding: 10px;
+}
+.topProductsNav ul a:hover{
+    background-color: red;
+    border-radius: 8px;
+}
+.topProductsNav ul .item1{
+    background-color: red;
+    border-radius: 5px;
+}
+.topProducts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+.topProductCard img{
+    height: 200px;
+    width: 278px;
+  object-fit: contain;
+    background-color: rgb(35, 35, 35);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.topProductCard img:hover{
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0.999);
+    }
+    50%{
+        transform: scale(1.011);
+    }
+    100%{
+        transform: scale(0.9999);
+    }
+}
+.topProductCard {
+    border: 1px solid rgb(91, 90, 90);
+    width: 280px;
+    /* padding: 15px; */
+    margin-bottom:  18px;
+    border-radius: 5px;
+    background-clip: border-box;
+    /* flex-grow: 1; */
+}
+.cardInfo{
+    padding: 15px;
+}
+
+.cardInfo .rating i{
+    font-size: 10px;
+    color: red;
+    margin-bottom: 15px;
+}
+.cardInfo h3{
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.cardInfo p{
+    font-size: 16px;
+    color: rgb(125, 124, 124);
+    margin-bottom: 16px;
+}
+.cardInfo .rupee{
+    display: inline;
+}
+.cardInfo .rate{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+.cardInfo strike{
+    font-size: 18px;
+    margin-left: 5px;
+    color: rgb(77, 76, 76);
+}
+.cardInfo .btn{
+    display: block;
+    width: 245px;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.topProducts .lastCard{
+    text-align: center;
+   padding-top: 150px;
+   
+}
+.topProducts .lastCard h1{
+    font-size: 35px;
+    display: inline;
+    font-weight: 100;
+    color: rgb(117, 116, 116);
+}
+.topProducts .lastCard  .arrow{
+    font-size: 30px;
+    /* font-weight: 100; */
+    color: rgb(117, 116, 116);
+    
+}
+.advantageContainer{
+    background-color:  rgb(14, 11, 11);
+    
+}
+.advantageContainer h1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.advantages{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    gap: 10px;
+
+
+}
+.advCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.advCard i{
+    padding: 20px;
+    color: red;
+    font-size: 30px;
+}
+.advCard .description .para1{
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.advCard .description .para2{
+    font-size: 16px;
+    color: rgb(134, 131, 131);
+}
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer .subcribeContainer{
+    width: 340px;
+  
+}
+.subcribeContainer h1{
+    font-size: 25px;
+    color: whitesmoke;
+    margin: 10px;
+}
+.subcribeContainer [type="email"]{
+    width: 300px;
+    background-color: black;
+    border: 1px solid  rgb(134, 131, 131);
+    color:  rgb(134, 131, 131);
+    padding: 10px;
+    margin: 10px;
+}
+.footer p{
+    font-size: 18px;
+    color: rgb(134, 131, 131);
+    font-family: 100;
+    margin: 14px;
+}
+.subcribeContainer .btn{
+    width: 150px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.footer h4{
+    font-size: 20px;
+    margin: 14px;
+    padding-bottom: 20px;
+}
+.footerBottom{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+.footerBottom p{
+    color: whitesmoke;
+    font-size: 18px;
+}
+.footerBottom .icons i{
+    margin-left: 25px;
+    font-size: 20px;
+}
+.scrollUp{
+    position: relative;
+    bottom: 120px;
+   left: 1350px;
+   font-size: 35px;
+   background-color: white;
+   color:red;
+   border: none;
+}
+
+
+
+

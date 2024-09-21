@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: black;
+    position: fixed;
+ 
+}
+.navbar h3{
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(223, 216, 216);
+}
+.navbar a{
+    text-decoration: none;
+}
+.navBarIcons i{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cartContainer{
+    display: flex;
+    background-color: rgb(39, 38, 38);
+    justify-content: start;
+    align-items: start;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.productsContainer{
+    background-color:  rgb(64, 63, 63);
+    margin: 50px 60px;
+    width: 700px;
+    height: 450px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 20px;
+}
+.productCard{
+    /* border: 1px solid white; */
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+.productCard img{
+    height: 100px;
+    width: 100px;
+}
+.productCard .productInfo{
+    padding: 5px 30px;
+}
+.productInfo p{
+    font-size: 18px;
+    color: whitesmoke;
+    margin-bottom: 18px;
+}
+.productInfo .rupee{
+    color: white;
+}
+.productInfo .currentRate{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.productInfo strike{
+    font-size: 18px;
+    color: rgb(144, 141, 141);
+    font-weight: 800;
+}
+.productInfo .number{
+    border: 1px solid whitesmoke;
+    width: 79px;
+}
+.productInfo .number i{
+    border: 1px solid whitesmoke;
+    color: white;
+    padding: 3px;
+   
+
+}
+.productInfo .number [type="text"]{
+    width: 26px;
+    padding: 4px;
+    text-align: center;
+    background-color: black;
+    border: white;
+    color: red;
+
+    
+
+}
+.productCard .deleteIcon i{
+  padding: 15px;
+  color: whitesmoke;
+}
+.summaryContainer{
+    margin: 50px 40px;
+    width: 400px;
+    color: whitesmoke;
+    
+}
+.summaryContainer h4{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+.pricesBox{
+    display: flex;
+    padding-bottom: 30px;
+}
+.pricesBox .div1{
+    width: 200px;
+    padding-left: 30px;
+   
+}
+.pricesBox .div2{
+    width: 150px;
+    text-align: right;
+}
+.div1 p{
+    padding: 6px;
+    font-size: 16px;
+    color: rgb(174, 171, 171);
+}
+.div2 p{
+    padding: 6px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.div2 .green{
+    color: green;
+}
+.totalPriceBox{
+    display: flex;
+    justify-content: space-between;
+    margin :40px 40px;
+}
+.totalPriceBox h4{
+    font-size: 25px;
+    color: rgb(174, 171, 171);
+}
+.totalPriceBox p{
+    font-size: 25px;
+    font-weight: 900;
+}
+.btn{
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer .subcribeContainer{
+    width: 340px;
+  
+}
+.subcribeContainer h1{
+    font-size: 25px;
+    color: whitesmoke;
+    margin: 10px;
+}
+.subcribeContainer [type="email"]{
+    width: 300px;
+    background-color: black;
+    border: 1px solid  rgb(134, 131, 131);
+    color:  rgb(134, 131, 131);
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer p{
+    font-size: 18px;
+    color: rgb(134, 131, 131);
+    font-family: 100;
+    margin: 14px;
+}
+.subcribeContainer .btn{
+    width: 150px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+}
+.footer h4{
+    font-size: 20px;
+    margin: 14px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+}
+.footerBottom{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+.footerBottom p{
+    color: whitesmoke;
+    font-size: 18px;
+}
+.footerBottom .icons i{
+    margin-left: 25px;
+    font-size: 20px;
+    color: rgb(160, 158, 158);
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+}
+.signupContainer{
+    background-color: rgb(39, 38, 38);
+    width: 450px;
+    margin: 30px auto;
+    color: rgb(183, 180, 180);
+    padding: 30px;
+    
+}
+.signupContainer .cross{
+    font-size: 20px;
+    color: whitesmoke;
+    position: relative;
+    bottom: 30px;
+    left: 400px;
+}
+.signupContainer h1{
+    text-align: start;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.signupContainer p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.signupContainer span{
+    font-weight: 500;
+    color: white;
+}
+[type="text"],[type="password"]{
+    width: 380px;
+    height: 40px;
+    margin-bottom: 15px;
+    background-color: rgb(39, 38, 38);
+    border: 1px solid gray;
+    color: gray;
+    font-size: 16px;
+    padding: 10px;
+}
+.signupContainer .btn{
+    margin-top: 30px;
+    width: 380px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.signupContainer .others{
+    text-align: center;
+    display: inline;
+    font-size: 15px;
+
+}
+hr{
+    width: 150px;
+    display: inline-block;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons .btn{
+    width: 100px;
+    margin: 10px;
+    font-size: 15px;
+}
+.buttons .facebook{
+    background-color: blue;
+}
+.buttons .google{
+    background-color: rgb(153, 46, 46);
+}
+.buttons .twitter{
+    background-color: rgb(48, 185, 239);
+}
